@@ -1,0 +1,5 @@
+PROGRAM f; 
+DEFFUNC	f = 100\40,5;
+f = 1\24, 5;
+BEGIN
+END.

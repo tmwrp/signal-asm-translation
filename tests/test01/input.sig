@@ -1,0 +1,5 @@
+	PROGRAM SIG01;
+		DEFFUNC F = 1\100,15;
+		S = 10\12,5;
+			BEGIN
+			END.
