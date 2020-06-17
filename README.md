@@ -1,10 +1,10 @@
-Program receives one param from console - path to test. 
-For example: ```./translate tests/test04```  
-By default **tests/test01** path is being used. 
-_Program doesn't work with list of paths._
-If any lexic error is found it's being printed to the table_of_tokens.txt file.
-If any syntax error is found it's being printed to the tree.txt file.
-If any semantic error is found it's being printed to the generated.asm file as a comment. Example: ```;SomeErrorMessage```.
+Program receives one param from console - path to test. <br>
+For example: ```./translate tests/test04```  <br>
+By default **tests/test01** path is being used. <br>
+_Program doesn't work with list of paths._<br>
+If any lexic error is found it's being printed to the table_of_tokens.txt file.<br>
+If any syntax error is found it's being printed to the tree.txt file.<br>
+If any semantic error is found it's being printed to the generated.asm file as a comment. Example: ```;SomeErrorMessage```.<br>
 Also there is a lable in the end of generated.asm file ```;STATUS OK``` if no semantic errors and ```;STATUS FAILED``` if semantic errors are found. 
 
 ### Part of Signal grammar:
@@ -42,5 +42,3 @@ integer> , <unsigned-integer>
 <letter> --> A | B | C | D | ... | Z
 ```
 
-
-NTUU “Igor Sikorsky Kyiv Polytechnic Institute”, FAM, 06.17.2020.
